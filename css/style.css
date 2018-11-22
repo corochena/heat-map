@@ -1,0 +1,27 @@
+#y-axis { font-size: 100%;}
+#x-axis { font-size: 100%; }
+#tooltip {
+  background-color: black;
+  opacity: 0;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 5px;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+}
+#legend {
+  position: absolute;
+  top: 630px;
+  left: 80px;
+}
+.square {
+  width: 60px;
+  height: 18px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: -1px;
+  text-align: right;
+  font-family: sans-serif;
+  padding-top: 2px;
+}
